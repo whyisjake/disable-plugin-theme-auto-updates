@@ -12,10 +12,5 @@
  * @package         Disable_Plugin_Theme_Auto_Updates
  */
 
-add_filter(
-	'admin_init',
-	function() {
-		add_filter( 'plugins_auto_update_enabled', '__return_false' );
-		add_filter( 'themes_auto_update_enabled', '__return_false' );
-	}
-);
+add_filter( 'plugins_auto_update_enabled', '__return_false' );
+add_filter( 'themes_auto_update_enabled', '__return_false' );
