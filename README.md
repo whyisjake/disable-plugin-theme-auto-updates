@@ -14,10 +14,8 @@ Simply disable automatic theme and plugin updates.
 
 At the core of this plugin, it is simply using the build in filters to disable automatic theme and plugin updates.
 
-```
-add_filter( 'plugins_auto_update_enabled', '__return_false' );
-add_filter( 'themes_auto_update_enabled', '__return_false' );
-```
+`add_filter( 'plugins_auto_update_enabled', '__return_false' );`
+`add_filter( 'themes_auto_update_enabled', '__return_false' );`
 
 ## Installation ##
 
