@@ -1,0 +1,24 @@
+{
+    "name": "whyisjake/disable-automatic-theme-plugin-updates",
+    "description": "Disable WordPress theme and plugin automatic updates.",
+    "type": "plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Jake Spurlock",
+            "email": "whyisjake@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+		"dealerdirect/phpcodesniffer-composer-installer": "~0.6.0",
+		"wp-coding-standards/wpcs": "~2.1.0"
+	},
+	"scripts": {
+		"format": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcbf --report=summary,source",
+		"lint": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs --report=summary,source",
+		"lint:errors": "@lint -n"
+	}
+}

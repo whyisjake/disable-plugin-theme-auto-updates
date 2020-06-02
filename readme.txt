@@ -4,7 +4,7 @@ Tags: updates, core
 Requires at least: 5.5
 Tested up to: 5.5.alpha
 Requires PHP: 7.0
-Stable tag: 0.1.3
+Stable tag: 0.1.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -30,6 +30,11 @@ e.g.
 1. Or, install via the plugin repository.
 
 == Changelog ==
+
+= 0.1.4 =
+
+* Initial release.
+* Added some build tools.
 
 = 0.1.0 =
 Let's kick this off.
