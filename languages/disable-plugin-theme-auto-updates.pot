@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the Disable Automatic Theme & Plugin Updates package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Disable Automatic Theme & Plugin Updates 0.1.0\n"
+"Project-Id-Version: Disable Automatic Theme & Plugin Updates 0.1.1\n"
 "Report-Msgid-Bugs-To: "
 "https://wordpress.org/support/plugin/disable-plugin-theme-auto-updates\n"
-"POT-Creation-Date: 2020-06-02 22:24:34+00:00\n"
+"POT-Creation-Date: 2020-06-02 22:33:35+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"

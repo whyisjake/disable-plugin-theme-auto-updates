@@ -4,7 +4,7 @@
 **Requires at least:** 5.5  
 **Tested up to:** 5.5.alpha  
 **Requires PHP:** 7.0  
-**Stable tag:** 0.1.0  
+**Stable tag:** 0.1.1  
 **License:** GPLv2 or later  
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -14,8 +14,10 @@ Simply disable automatic theme and plugin updates.
 
 At the core of this plugin, it is simply using the build in filters to disable automatic theme and plugin updates.
 
-`add_filter( 'plugins_auto_update_enabled', '__return_false' );`
-`add_filter( 'themes_auto_update_enabled', '__return_false' );`
+```
+add_filter( 'plugins_auto_update_enabled', '__return_false' );
+add_filter( 'themes_auto_update_enabled', '__return_false' );
+```
 
 ## Installation ##
 
