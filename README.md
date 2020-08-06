@@ -19,6 +19,8 @@ At the core of this plugin, it is simply using the build in filters to disable a
 	add_filter( 'themes_auto_update_enabled', '__return_false' );
 
 
+If you are interested in contributing to this plugin, all issues should be addressed on [Github](https://github.com/whyisjake/disable-plugin-theme-auto-updates). Pull requests welcome.
+
 ## Installation ##
 
 This section describes how to install the plugin and get it working.
