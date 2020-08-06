@@ -1,6 +1,6 @@
 {
   "name": "disable-plugin-theme-auto-updates",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "main": "Gruntfile.js",
   "author": "Jake Spurlock",
   "scripts": {

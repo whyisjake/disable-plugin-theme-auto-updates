@@ -7,7 +7,7 @@
  * Author URI:      https://jakespurlock.com
  * Text Domain:     disable-plugin-theme-auto-updates
  * Domain Path:     /languages
- * Version:         0.1.4
+ * Version:         0.1.6
  *
  * @package Disable_Plugin_Theme_Auto_Updates
  */
